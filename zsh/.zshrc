@@ -5,13 +5,17 @@ export NVM_COMPLETION=true
 # source zsh plugins
 source ~/.zsh_plugins.sh
 
+# cd and ls
+cdls() {builtin cd "$@" && ls; }
+
 # aliases
+alias cd="cdls"
 alias vim="nvim"
 alias ls="ls --color -al"
 alias cat="bat"
 
 # source nix if it exits
-if [ -e /home/jd/.nix-profile/etc/profile.d/nix.sh ]; then . /home/jd/.nix-profile/etc/profile.d/nix.sh; fi
+if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi
 
 
 # starship - https://starship.rs/guide/#%F0%9F%9A%80-installation
