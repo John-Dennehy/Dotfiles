@@ -2,10 +2,10 @@
 lukechilds/zsh-nvm
 
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins
+ohmyzsh/ohmyzsh path:plugins/gh
 ohmyzsh/ohmyzsh path:plugins/alias-finder
 ohmyzsh/ohmyzsh path:plugins/colored-man-pages
 ohmyzsh/ohmyzsh path:plugins/alias-finder
-ohmyzsh/ohmyzsh path:plugins/gh
 ohmyzsh/ohmyzsh path:plugins/nvm
 ohmyzsh/ohmyzsh path:plugins/node
 ohmyzsh/ohmyzsh path:plugins/yarn
