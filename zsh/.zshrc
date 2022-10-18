@@ -6,7 +6,7 @@ export NVM_COMPLETION=true
 source ~/.zsh_plugins.sh
 
 # cd and ls
-cdls() {builtin cd "$@" && ls; }
+cdls() {builtin cd "$@" && ls --color; }
 
 # aliases
 alias cd="cdls"

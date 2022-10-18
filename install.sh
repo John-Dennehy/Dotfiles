@@ -24,6 +24,7 @@ nix-env -iA \
   nixpkgs.ripgrep \
   nixpkgs.starship \
   nixpkgs.stow \
+  nixpkgs.tree \
   nixpkgs.tmux \
   nixpkgs.yarn \
   nixpkgs.zsh

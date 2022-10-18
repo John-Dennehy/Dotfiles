@@ -1,4 +1,8 @@
-require("jd")
+require("my.keymaps")
+require("my.options")
+require("my.theme")
+require("my.plugins")
+require("my.autocommands")
 
 local system = vim.loop.os_uname().sysname
 
