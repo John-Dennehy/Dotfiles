@@ -20,12 +20,14 @@ nix-env -iA \
   nixpkgs.fzf \
   nixpkgs.git \
   nixpkgs.gh \
+  nixpkgs.kitty \
   nixpkgs.neovim \
   nixpkgs.ripgrep \
   nixpkgs.starship \
   nixpkgs.stow \
   nixpkgs.tree \
   nixpkgs.tmux \
+  nixpkgs.xsel \
   nixpkgs.yarn \
   nixpkgs.zsh
 
@@ -33,6 +35,7 @@ nix-env -iA \
 stow neovim
 stow zsh
 stow git
+stow fonts
 
 # add zsh to shells list
 command -v zsh | sudo tee -a /etc/shells

@@ -15,7 +15,7 @@ local options = {
 	swapfile = true,
 	undofile = true,
 	writebackup = false,
-	timeoutlen = 1000,
+	timeoutlen = 200,
 
 	shell = 'zsh',
 

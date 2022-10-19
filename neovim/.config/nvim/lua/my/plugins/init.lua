@@ -13,3 +13,7 @@ require "my.plugins.impatient"
 require "my.plugins.indentline"
 require "my.plugins.alpha"
 require "my.plugins.whichkey"
+require "my.plugins.cmp"
+
+
+
