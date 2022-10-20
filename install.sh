@@ -30,6 +30,8 @@ stow git
 stow neovim
 stow starship
 stow zsh
+stow alacritty
+stow kitty
 
 # add zsh to shells list
 command -v zsh | sudo tee -a /etc/shells
