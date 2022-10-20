@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Locale
-export LANGUAGE=en_GB.UTF-8
-export LANG=en_GB.UTF-8
-export LC_ALL=en_GB.UTF-8
-locale-gen en_GB.UTF-8
-
 # install nix (single user)
 sh <(curl -L https://nixos.org/nix/install)
 
@@ -20,7 +14,6 @@ nix-env -iA \
   nixpkgs.fzf \
   nixpkgs.git \
   nixpkgs.gh \
-  nixpkgs.kitty \
   nixpkgs.neovim \
   nixpkgs.ripgrep \
   nixpkgs.starship \
@@ -32,10 +25,11 @@ nix-env -iA \
   nixpkgs.zsh
 
 # stow
-stow neovim
-stow zsh
-stow git
 stow fonts
+stow git
+stow neovim
+stow starship
+stow zsh
 
 # add zsh to shells list
 command -v zsh | sudo tee -a /etc/shells
