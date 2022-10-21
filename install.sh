@@ -14,6 +14,7 @@ nix-env -iA \
   nixpkgs.fzf \
   nixpkgs.git \
   nixpkgs.gh \
+  nixpkgs.lazygit \
   nixpkgs.neovim \
   nixpkgs.ripgrep \
   nixpkgs.starship \
