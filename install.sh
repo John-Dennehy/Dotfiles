@@ -26,7 +26,7 @@ nix-env -iA \
   nixpkgs.zsh
 
 # stow all directories
-# stow */ --target=${HOME} 
+# stow */ --target=${HOME}
 
 # OR stow individual directories
 stow fonts --target=${HOME}
@@ -44,5 +44,8 @@ command -v zsh | sudo tee -a /etc/shells
 sudo chsh -s $(which zsh) $USER
 
 # bundle zsh plugins
-antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
+antibody bundle <~/.zsh_plugins.txt >~/.zsh_plugins.sh
 
+# install nodejs and pnpm
+nvm install --lts
+corepack enable pnpm
