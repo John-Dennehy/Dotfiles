@@ -25,14 +25,17 @@ nix-env -iA \
   nixpkgs.yarn \
   nixpkgs.zsh
 
-# stow
-stow fonts
-stow git
-stow neovim
-stow starship
-stow zsh
-stow alacritty
-stow kitty
+# stow all directories
+# stow */ --target=${HOME} 
+
+# OR stow individual directories
+stow fonts --target=${HOME}
+stow git --target=${HOME}
+stow neovim --target=${HOME}
+stow starship --target=${HOME}
+stow zsh --target=${HOME}
+stow alacritty --target=${HOME}
+stow kitty --target=${HOME}
 
 # add zsh to shells list
 command -v zsh | sudo tee -a /etc/shells
