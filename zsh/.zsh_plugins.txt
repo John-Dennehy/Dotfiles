@@ -1,3 +1,7 @@
+# https://spaceship-prompt.sh
+spaceship-prompt/spaceship-prompt
+spaceship-prompt/spaceship-react
+
 # https://github.com/lukechilds/zsh-nvm
 lukechilds/zsh-nvm
 

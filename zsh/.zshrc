@@ -15,9 +15,6 @@ alias cat="bat"
 # source nix if it exits
 if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi
 
-# starship - https://starship.rs/guide/#%F0%9F%9A%80-installation
-eval "$(starship init zsh)"
-
 # pnpm
 export PNPM_HOME="/home/jd/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
