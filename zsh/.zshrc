@@ -1,3 +1,7 @@
+# Locale settings
+LC_CTYPE=en_GB.UTF-8
+LC_ALL=en_GB.UTF-8
+
 # NVM setup must be done before plugins are bundled
 export NVM_DIR=${HOME}/.config/nvm
 export NVM_COMPLETION=true
